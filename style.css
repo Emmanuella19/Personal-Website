@@ -1,0 +1,105 @@
+main {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 20%;
+  margin-left: 2%;
+}
+
+body {
+  background-color: #EEF8FF;
+  color: black;
+}
+
+ul {
+  font-family: "serif";
+}
+
+h1 {
+  color:#112A46; 
+  font-family: "serif";
+  font-size: 48px;
+}
+
+h2 {
+  color:#112A46; 
+  font-family: "cursive";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 21px;
+}
+
+h3 {
+  color:#112A46; 
+  font-family: "cursive";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 21px;
+  padding: 10px 0;
+  margin-bottom: -50px;
+  }
+
+h4 {
+  color:#112A46; 
+  font-family: "cursive";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 21px;
+}
+
+p {
+  color: #112A46;
+  font-family: "Didot", serif;
+  font-weight: normal;
+  text-align-last: left;
+}
+
+img {
+  max-width: 90%;
+  max-height: 90%;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+}
+
+.img-LB {
+  transform: rotate(270deg);
+  margin-left: 5.2%;
+}
+
+.img-LB + p { /* Selects the paragraph directly after the .img-LB element */
+  margin-top: -10px; /* Reduce the top margin to 10px */
+}
+
+.hope {
+ color: darkblue;
+  text-style: solid;
+}
+
+#love {
+  border-radius: 10%;
+  border-width: 0px;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #003046;
+  overflow: hidden;
+  padding: 1em;
+  text-align-last: center;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: #FDFDFD;
+  font-size: 1.3em;
+  padding: 2em;
+}
+
+li a:hover {
+  background-color: hotpink;
+}
